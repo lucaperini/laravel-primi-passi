@@ -1,14 +1,10 @@
-@php
-$text = "Hello World!";
-@endphp
-
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Home</title>
+        <title>Blog</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -77,7 +73,7 @@ $text = "Hello World!";
 
             <div class="content">
                 <div class="title m-b-md">
-                    <h1>{{ $text }} </h1>
+                    <h1>Blog</h1>
                 </div>
 
                 <div class="links">
@@ -87,6 +83,8 @@ $text = "Hello World!";
                 <a href="{{ route('blog') }}">Blog</a>
                 <a href="{{ route('contacts') }}">Contacts</a>
                 </div>
+
+                
             </div>
         </div>
     </body>
